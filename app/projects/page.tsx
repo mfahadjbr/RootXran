@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function Component() {
   return (
     <div className="flex flex-col w-full min-h-screen">
-      <section className="w-full py-10 md:py- lg:px-32">
+      <section className="w-full py-12 md:py-10 lg:px-32">
         <div className="container space-y-10 px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
