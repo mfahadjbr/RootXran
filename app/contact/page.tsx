@@ -13,17 +13,17 @@ export default function Component() {
       <form className="mt-8 space-y-6" action="https://formspree.io/f/xdknbvpg" method='POST'>
         <div>
           <Label htmlFor="name">Name</Label>
-          <Input id="name" type="text" placeholder="Enter your name"  name="Name" autoComplete="off" required />
+          <Input id="name" className="rounded-[7px]" type="text" placeholder="Enter your name"  name="Name" autoComplete="off" required />
         </div>
         <div>
           <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" placeholder="Enter your email" name="Email" autoComplete="off" required />
+          <Input id="email" className="rounded-[7px]" type="email" placeholder="Enter your email" name="Email" autoComplete="off" required />
         </div>
         <div>
           <Label htmlFor="message">Message</Label>
-          <Textarea id="message" placeholder="Enter your message" rows={4} name="Message" autoComplete="off" required />
+          <Textarea id="message"  className="rounded-[7px]" placeholder="Enter your message" rows={4} name="Message" autoComplete="off" required />
         </div>
-        <Button type="submit" value={"Submit"} className="w-full">
+        <Button type="submit" value={"Submit"} className="w-full bg-black text-white rounded-[7px]">
           Submit
         </Button>
       </form>
