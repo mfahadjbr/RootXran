@@ -90,9 +90,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <SheetContent side="left" className="w-64 sm:max-w-none text-white">
             <div className="flex items-center justify-between mb-4 text-white">
               <span className="font-bold text-xl text-white">Menu</span>
-              <Button variant="ghost" size="icon" onClick={toggleSidebar}>
-                <X className="h-6 w-6" />
-              </Button>
             </div>
             <SidebarContent />
           </SheetContent>
